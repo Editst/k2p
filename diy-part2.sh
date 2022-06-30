@@ -29,5 +29,4 @@ sed -i 's/\/bin\/login/\/bin\/login -f root/' /etc/config/ttyd
 sed -i '/customized in this file/a net.netfilter.nf_conntrack_max=165535' package/base-files/files/etc/sysctl.conf
 
 # Install mentohust
-git clone https://github.com/BoringCat/luci-app-mentohust.git package/luci-app-mentohust
-git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
+git clone https://github.com/Editst/openwrt-minieap.git package/minieap
